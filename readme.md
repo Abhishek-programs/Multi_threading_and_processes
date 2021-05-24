@@ -1,13 +1,13 @@
 # Practicing MutliProcessing and Threading with concurrent.futures module
 
-> concurrent.futures is builtin python module.
+> concurrent.futures is builtin python module.  
 
 Previously used ***Threading*** and ***multiproccessing*** module to achieve the expected outcome.  
-Their uses has been replaced with **concurrent.futures** with:
+Their uses has been replaced with **concurrent.futures** with:  
 - ThreadPoolExecutor: for threading
 - ProcessPoolExecutor: for multiproccessing
 
-And, this achieves the same result with much more cleaner code and ease of use.
+And, this achieves the same result with much more cleaner code and ease of use.  
 
 ## Trying out Multiprocessing and Threading
 
@@ -41,17 +41,17 @@ We'll also use the timeit module to gaguge at the time taken to complete this pr
 ## Result
 
 #### Threading
-Downloading image without Threading: 50+ sec (approx)
-Downloading image with Threading: 25+ sec (approx)
+Downloading image without Threading: 50+ sec (approx)  
+Downloading image with Threading: 25+ sec (approx)  
 
 ---
 
 #### Multiprocessing
-Resizing image to fixed size without mutliprocessing: 3+ sec (approx)
-Resizing image to fixed size with mutliprocessing: 1.5+ sec (approx)
+Resizing image to fixed size without mutliprocessing: 3+ sec (approx)  
+Resizing image to fixed size with mutliprocessing: 1.5+ sec (approx)  
 
 # Requirement
-> pip install pillow
+> pip install pillow  
 for image manipulation
 
 Run threading.py first to download the images.
