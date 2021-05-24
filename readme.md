@@ -37,3 +37,21 @@ While use the multiprocessing to work on them like resizing or changing properti
 
 
 We'll also use the timeit module to gaguge at the time taken to complete this processes and compare it without the use of threading.
+
+## Result
+
+#### Threading
+Downloading image without Threading: 50+ sec (approx)
+Downloading image with Threading: 25+ sec (approx)
+
+---
+
+#### Multiprocessing
+Resizing image to fixed size without mutliprocessing: 3+ sec (approx)
+Resizing image to fixed size with mutliprocessing: 1.5+ sec (approx)
+
+# Requirement
+> pip install pillow
+for image manipulation
+
+Run threading.py first to download the images.
