@@ -52,6 +52,7 @@ Resizing image to fixed size with mutliprocessing: 1.5+ sec (approx)
 
 # Requirement
 > pip install pillow  
+
 for image manipulation
 
 Run threading.py first to download the images.
